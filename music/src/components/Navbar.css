@@ -1,0 +1,72 @@
+.navigation-bar{
+    margin: 20px;
+    display: flex;    
+    justify-content: space-between;
+}
+
+.row{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    width: 150px;
+    justify-content: space-between;
+}
+.row> img{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+
+}
+.page{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 600px;
+    font-weight: bold;
+}
+
+.page > li{
+    list-style: none;
+    cursor: pointer;
+
+}
+
+.profile{
+    /* margin-right: 20px; */
+}
+
+.profile > button{
+
+    
+    border-radius: 20px;
+    margin-right: 20px;
+    font-weight: 600;
+    box-shadow: inset;
+    /* border: 3px solid #870833; */
+    cursor: pointer;
+}
+
+.profile > .sign-up{
+    padding: 10px 40px 10px 40px;
+    background-color: black;
+    border: none;
+    border: 3px solid #870833;
+    color: #fff;
+}
+
+.sign-up:hover{
+    background-color: #870833;
+}
+.profile > .login{
+    padding: 13px 43px 13px 43px;
+    border: 3px solid #000;
+    background-color: #870833;
+    border: none;
+}
+.login:hover{
+    background-color: #000;
+    color: #fff;
+}
